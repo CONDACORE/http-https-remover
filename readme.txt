@@ -1,10 +1,10 @@
 === HTTP / HTTPS Remover ===
 Contributors: condacore
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=marius%2ebolik%40me%2ecom&lc=DE&item_name=HTTP%20%2f%20HTTPS%20Remover&no_note=0&cn=Message%3a&no_shipping=1&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
+Donate link: https://www.paypal.me/MariusBolik
 Tags: http, https, mixed content
 Requires at least: 1.2.0
-Tested up to: 4.6.1
-Stable tag: 1.1.1
+Tested up to: 4.7
+Stable tag: 1.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,6 +17,7 @@ A fix for mixed content! This Plugin removes HTTP and HTTPS protocols from all l
 - Makes every Plugin compatible with https<br>
 - No Setup needed<br>
 - Compatible with Visual Composer
+- Fixes Google Fonts issues
 
 
 **Mixed content** occurs when initial HTML is loaded over a secure HTTPS connection, but other resources (such as images, videos, stylesheets, scripts) are loaded over an insecure HTTP connection. This is called mixed content because both HTTP and HTTPS content are being loaded to display the same page, and the initial request was secure over HTTPS. Modern browsers display warnings about this type of content to indicate to the user that this page contains insecure resources.
@@ -65,6 +66,9 @@ Please purge/clear cache for the changes to take effect!
 1. The Sourcecode of the Website will look like this!
 
 == Changelog ==
+= 1.2 (12/11/16) =
+* Added support for Google (Fonts, Ajax, Maps etc.)
+* Compatibility for Wordpress 4.7
 = 1.1.1 (10/18/16) =
 * Added support for "content" tag
 * Added support for "loaderUrl" tag
